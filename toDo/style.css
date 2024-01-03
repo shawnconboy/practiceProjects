@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 10%;
+}
+
+.container {
+    /* border: 1px solid black; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputContainer {
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.userInput {
+    width: 250px;
+}
+
+.userInput:focus {
+    outline: none;
+}
+
+.listItem {
+    list-style: none;
+    padding: 2px 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+button:hover {
+    cursor: pointer;
+}
