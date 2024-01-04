@@ -29,6 +29,12 @@ function addItem() {
 
         userInput.value = ''; // Clear the input field after adding an item
     });
+
+    userInput.addEventListener('keyup', function (event) {
+        if (event.key === 'Enter') {
+            addButton.click();
+        }
+    });
 }
 
 // Add a single click event listener to the parent element
