@@ -4,6 +4,8 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0% 10%;
+    background-color: rgb(27, 27, 27);
+    color: white;
 }
 
 .container {
@@ -38,6 +40,16 @@ body {
     width: 200px;
 }
 
+button {
+    background-color: greenyellow;
+    color: rgb(137, 137, 137);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
 button:hover {
     cursor: pointer;
+    transform: scale(1.1);
 }
