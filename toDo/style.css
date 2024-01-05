@@ -32,7 +32,8 @@ body {
     outline: none;
 }
 
-.listItem {
+.listItem,
+.completedListItem {
     list-style: none;
     padding: 2px 10px;
     display: flex;
