@@ -18,7 +18,9 @@ function addItem() {
     addButton.addEventListener('click', function () {
         let newItem = document.createElement('li');
         newItem.className = 'listItem';
-        newItem.textContent = userInput.value;
+
+        // Capitalize the first letter of every word in the user input
+        newItem.textContent = capitalizeText(userInput.value);
 
         let deleteBtn = document.createElement('button');
         deleteBtn.className = 'deleteBtn';
@@ -34,6 +36,13 @@ function addItem() {
         if (event.key === 'Enter') {
             addButton.click();
         }
+    });
+}
+
+// Function to capitalize the first letter of every word
+function capitalizeText(text) {
+    return text.replace(/\b\w/g, function (match) {
+        return match.toUpperCase();
     });
 }
 
