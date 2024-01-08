@@ -4,8 +4,8 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0% 10%;
-    background-color: rgb(27, 27, 27);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    /* color: white; */
 }
 
 .container {
@@ -26,6 +26,7 @@ body {
 
 .userInput {
     width: 250px;
+    outline: 0.1px solid black;
 }
 
 .userInput:focus {
@@ -45,7 +46,7 @@ button {
     background-color: greenyellow;
     color: rgb(137, 137, 137);
     outline: none;
-    border: none;
+    border: 0.1px solid black;
     border-radius: 5px;
     transition: all 0.3s;
 }
