@@ -5,7 +5,5 @@ Welcome to the 'practice projects' directory. This collection includes various p
 ## Projects
 
 - [ToDo Project](toDo/README.md)
-- [Project 2](project2/README.md)
-- [Project 3](project3/README.md)
 
 Feel free to explore each project for more details.
