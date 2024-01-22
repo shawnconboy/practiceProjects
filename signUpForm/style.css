@@ -1,3 +1,29 @@
 body {
     font-family: 'Ubuntu', sans-serif;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftSide {
+    width: 50%;
+}
+
+.rightSide {
+    width: 50%;
+}
+
+.upperRightSide {
+    background-color: gray;
+}
+
+.midRightSide {
+    background-color: lightgray;
+}
+
+.lowerRightSide {
+    background-color: lightblue;
+}
