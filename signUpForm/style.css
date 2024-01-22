@@ -1,7 +1,6 @@
 body {
     font-family: 'Ubuntu', sans-serif;
-    /* background-image: url(./assets/background.png); */
-    background-color: rgb(104, 151, 104);
+    background-image: url(./assets/background.png);
     margin: 0;
     padding: 0;
 }
@@ -29,7 +28,15 @@ body {
 
 .upperRightSide {
     height: 20%;
-    background-color: gray;
+    /* background-color: gray; */
+    /* text-align: center; */
+    text-transform: lowercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5%;
 }
 
 .midRightSide {
@@ -37,8 +44,33 @@ body {
     background-color: lightgray;
 }
 
+.midRightSide>h2 {
+    padding-top: 2%;
+    padding-left: 5%;
+    text-align: start;
+    font-size: 2rem;
+}
+
+form {
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formLeft {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formRight {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
 .lowerRightSide {
-    height: 10%;
+    height: 9%;
     background-color: lightblue;
 }
 
