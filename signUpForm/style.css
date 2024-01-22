@@ -41,11 +41,17 @@ body {
 
 .midRightSide {
     height: 50%;
-    background-color: lightgray;
+    background-color: rgb(180, 218, 176);
+    box-shadow: 05px 7px 5px rgba(0, 0, 0, 0.552);
+    border-radius: 10px;
+    color: rgb(73, 90, 65);
+    display: flex;
+    flex-direction: column;
 }
 
 .midRightSide>h2 {
     padding-top: 2%;
+    padding-bottom: 7%;
     padding-left: 5%;
     text-align: start;
     font-size: 2rem;
