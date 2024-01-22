@@ -40,7 +40,7 @@ body {
 }
 
 .midRightSide {
-    height: 70%;
+    height: 50%;
     background-color: lightgray;
 }
 
@@ -52,9 +52,19 @@ body {
 }
 
 form {
-    padding: 5%;
+    padding: 0% 5%;
     display: flex;
     justify-content: space-between;
+}
+
+input {
+    border: none;
+    border-radius: 10px;
+    height: 1.3rem;
+}
+
+label {
+    padding: 10px 0px;
 }
 
 .formLeft {
@@ -70,15 +80,15 @@ form {
 }
 
 .lowerRightSide {
-    height: 9%;
-    background-color: lightblue;
+    padding: 5%;
+    height: 25%;
 }
 
 button {
     height: 2rem;
     border-radius: 10px;
     border: 0.1px solid rgb(104, 151, 104);
-    background-color: rgb(28, 169, 80);
+    background-color: rgb(34, 103, 59);
     color: white;
 
 
