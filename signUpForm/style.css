@@ -1,6 +1,8 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     background-image: url(./assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
 }
@@ -9,11 +11,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 96.5vh;
+    height: 100vh;
 }
 
 .leftSide {
     width: 50%;
+    height: 100%;
 }
 
 .rightSide {
@@ -24,6 +27,8 @@ body {
 
 .rightSideContainer {
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .upperRightSide {
@@ -41,10 +46,10 @@ body {
 
 .midRightSide {
     height: 50%;
-    background-color: rgb(180, 218, 176);
+    background-color: rgb(94, 117, 91);
     box-shadow: 05px 7px 5px rgba(0, 0, 0, 0.552);
     border-radius: 10px;
-    color: rgb(73, 90, 65);
+    color: rgb(198, 229, 184);
     display: flex;
     flex-direction: column;
 }
