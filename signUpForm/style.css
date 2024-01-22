@@ -96,6 +96,18 @@ label {
     display: flex;
     flex-direction: column;
     justify-content: start;
+    color: rgba(0, 0, 0, 0.545);
+}
+
+.loginLink {
+    text-decoration: none;
+    color: rgb(107, 125, 99);
+    transition: ease-in-out .3s;
+}
+
+a:hover {
+    color: rgb(69, 80, 64);
+    transition: ease-in-out .3s;
 }
 
 button {
