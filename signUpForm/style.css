@@ -1,5 +1,9 @@
 body {
     font-family: 'Ubuntu', sans-serif;
+    background-image: url(./assets/background.png);
+
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -14,6 +18,13 @@ body {
 
 .rightSide {
     width: 50%;
+    background-color: white;
+    height: 100vh;
+    background-color: white;
+}
+
+.rightSideContainer {
+    margin: 2%;
 }
 
 .upperRightSide {
