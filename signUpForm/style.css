@@ -19,6 +19,29 @@ body {
     height: 100%;
 }
 
+.leftSide>h1 {
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.568); */
+    color: white;
+    font-size: 5rem;
+}
+
+.titleLogo {
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    /* border: 10px solid black; */
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.405);
+    filter: blur(1px);
+}
+
+.altTitle {
+    color: rgb(8, 179, 57);
+    text-shadow: 0.6px 0.5px 2px white;
+}
+
 .rightSide {
     width: 50%;
     background-color: white;
